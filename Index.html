@@ -1,0 +1,218 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="My personal portfolio website showcasing my skills and projects.">
+    <title>My Portfolio | Web Developer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <header class="header">
+        <nav class="navbar">
+            <a href="#home" class="logo">My<span>PortfolioWebSite.</span></a>
+
+            <button class="menu-toggle" id="menuToggle"
+                aria-label="Toggle navigation" aria-expanded="false">
+                ☰
+            </button>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Home Section -->
+        <section class="hero" id="home">
+            <div class="hero-content">
+                <p class="eyebrow">WELCOME TO MY PORTFOLIO</p>
+                <h1>Hello, I'm <span>MUSA ONIMISI</span></h1>
+                <h2>I'm a <span id="typingText">Web Developer</span></h2>
+                <p class="intro">
+                    I create modern, responsive and user-friendly
+                    websites. I enjoy solving problems and turning
+                    ideas into digital experiences.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn">View My Work</a>
+                    <a href="#contact" class="btn btn-outline">Contact Me</a>
+                </div>
+
+                <div class="social-links">
+                    <a href="https://github.com/" target="_blank"
+                        rel="noopener noreferrer">GitHub</a>
+                    <a href="https://www.linkedin.com/" target="_blank"
+                        rel="noopener noreferrer">LinkedIn</a>
+                </div>
+            </div>
+
+            <div class="hero-image">
+                <div class="profile-placeholder">
+                    <span>MO</span>
+                </div>
+                <p>Creative Mind. Digital Solutions.</p>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="section about" id="about">
+            <div class="section-heading">
+                <p class="eyebrow">GET TO KNOW ME</p>
+                <h2>About <span>Me</span></h2>
+            </div>
+
+            <div class="about-content">
+                <div class="about-card">
+                    <h3>Who I Am</h3>
+                    <p>
+                        I am a passionate student and aspiring web developer
+                        interested in technology, creativity and software
+                        development. I enjoy learning new skills and
+                        building useful digital products.
+                    </p>
+                    <p>
+                        My goal is to create websites that look great,
+                        work smoothly and provide a good user experience.
+                        However also have advance user interface(UI).
+                    </p>
+                </div>
+
+                <div class="about-card details">
+                    <p><strong>Name:</strong> Your Name</p>
+                    <p><strong>Profession:</strong> Web Developer</p>
+                    <p><strong>Experience:</strong> Beginner</p>
+                    <p><strong>Location:</strong> Your City</p>
+                    <a href="#contact" class="btn">Let's Talk</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="section skills" id="skills">
+            <div class="section-heading">
+                <p class="eyebrow">WHAT I CAN DO</p>
+                <h2>My <span>Skills</span></h2>
+            </div>
+
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon">HTML</div>
+                    <h3>HTML5</h3>
+                    <p>Creating structured and accessible web pages.</p>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon">CSS</div>
+                    <h3>CSS3</h3>
+                    <p>Designing responsive and attractive layouts.</p>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon">JS</div>
+                    <h3>JavaScript</h3>
+                    <p>Adding interactive features to websites.</p>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon">UI</div>
+                    <h3>Web Design</h3>
+                    <p>Creating simple and user-friendly interfaces.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="section projects" id="projects">
+            <div class="section-heading">
+                <p class="eyebrow">MY RECENT WORK</p>
+                <h2>My <span>Projects</span></h2>
+            </div>
+
+            <div class="projects-grid">
+                <article class="project-card">
+                    <div class="project-visual visual-one">01</div>
+                    <div class="project-info">
+                        <h3>Personal Portfolio</h3>
+                        <p>
+                            A responsive website introducing me,
+                            my skills and my work.
+                        </p>
+                        <p class="tech">HTML · CSS · JavaScript</p>
+                        <a href="#home">View Project →</a>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-visual visual-two">02</div>
+                    <div class="project-info">
+                        <h3>Authentication System</h3>
+                        <p>
+                            A demonstration registration and login
+                            interface with form validation.
+                        </p>
+                        <p class="tech">HTML · CSS · JavaScript</p>
+                        <a href="#contact">Project Details →</a>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-visual visual-three">03</div>
+                    <div class="project-info">
+                        <h3>Mini E-commerce</h3>
+                        <p>
+                            A sample online store interface for
+                            displaying products and prices.
+                        </p>
+                        <p class="tech">HTML · CSS · JavaScript</p>
+                        <a href="#contact">Project Details →</a>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="section contact" id="contact">
+            <div class="section-heading">
+                <p class="eyebrow">GET IN TOUCH</p>
+                <h2>Contact <span>Me</span></h2>
+                <p>Have a project or opportunity? Send me a message.</p>
+            </div>
+
+            <form class="contact-form" id="contactForm">
+                <label for="contactName">Your Name</label>
+                <input type="text" id="contactName"
+                    placeholder="Enter your name" required>
+
+                <label for="contactEmail">Your Email</label>
+                <input type="email" id="contactEmail"
+                    placeholder="Enter your email" required>
+
+                <label for="contactMessage">Your Message</label>
+                <textarea id="contactMessage" rows="5"
+                    placeholder="Write your message..." required></textarea>
+
+                <button type="submit" class="btn">Send Message</button>
+                <p id="formMessage" aria-live="polite"></p>
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>© <span id="year"></span> Your Name. Onimisi Tech.</p>
+        <a href="#home">Back to Top ↑</a>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
